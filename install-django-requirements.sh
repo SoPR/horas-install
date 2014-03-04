@@ -4,6 +4,7 @@
 
 cd /home/vagrant/horas/static/src
 npm install -g brunch
+npm install
 cd /home/vagrant/horas
 sudo pip3.3 install -r requirements.txt
 python3.3 manage.py syncdb
