@@ -5,7 +5,7 @@ sudo ln -sf /usr/share/zoneinfo/UTC /etc/localtime
 
 # Update and install main packages
 sudo apt-get update
-sudo apt-get -y install build-essential libssl-dev checkinstall git-core curl vim python-software-properties
+sudo apt-get -y install build-essential libssl-dev checkinstall git-core curl vim python-software-properties python-dev
 sudo add-apt-repository -y ppa:fkrull/deadsnakes
 sudo apt-add-repository -y ppa:chris-lea/node.js
 sudo apt-get update
