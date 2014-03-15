@@ -9,8 +9,8 @@ sudo apt-get -y install build-essential libssl-dev checkinstall git-core curl vi
 sudo add-apt-repository -y ppa:fkrull/deadsnakes
 sudo apt-add-repository -y ppa:chris-lea/node.js
 sudo apt-get update
-sudo apt-get -y install python3.3 nodejs
-wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py -O - | sudo python3.3
+sudo apt-get -y install python nodejs
+wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py -O - | sudo python
 sudo easy_install pip
 # Deal with node.js open file limitations
 ulimit -n 10000

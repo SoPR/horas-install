@@ -6,7 +6,7 @@ cd /home/vagrant/horas/static/src
 npm install
 npm install -g brunch
 cd /home/vagrant/horas
-sudo pip3.3 install -r requirements.txt
-python3.3 manage.py syncdb
-python3.3 manage.py migrate
-python3.3 manage.py loaddata /home/vagrant/horas/apps/profiles/fixtures/admin.json
+sudo pip install -r requirements.txt
+python manage.py syncdb
+python manage.py migrate
+python manage.py loaddata /home/vagrant/horas/apps/profiles/fixtures/admin.json
