@@ -6,6 +6,7 @@ cd /home/vagrant/horas/static/src
 npm install
 npm install -g brunch
 cd /home/vagrant/horas
+cp /home/vagrant/horas/.env.example /home/vagrant/horas/.env
 sudo pip install -r requirements.txt
 python manage.py syncdb
 python manage.py migrate
